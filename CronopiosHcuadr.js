@@ -11,35 +11,35 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_11 = function() {
+(lib.CachedTexturedBitmap_21 = function() {
 	this.initialize(ss["CronopiosHcuadr_atlas_"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_12 = function() {
+(lib.CachedTexturedBitmap_22 = function() {
 	this.initialize(ss["CronopiosHcuadr_atlas_"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_13 = function() {
+(lib.CachedTexturedBitmap_23 = function() {
 	this.initialize(ss["CronopiosHcuadr_atlas_"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_14 = function() {
+(lib.CachedTexturedBitmap_24 = function() {
 	this.initialize(ss["CronopiosHcuadr_atlas_"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_15 = function() {
+(lib.CachedTexturedBitmap_25 = function() {
 	this.initialize(ss["CronopiosHcuadr_atlas_"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
@@ -66,9 +66,9 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Cuadricula
-	this.instance = new lib.CachedTexturedBitmap_13();
+	this.instance = new lib.CachedTexturedBitmap_23();
 	this.instance.parent = this;
-	this.instance.setTransform(50.3,35.2,0.5,0.5);
+	this.instance.setTransform(7.3,13.2,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -79,7 +79,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Capa_1
-	this.instance = new lib.CachedTexturedBitmap_15();
+	this.instance = new lib.CachedTexturedBitmap_25();
 	this.instance.parent = this;
 	this.instance.setTransform(-245.8,-245.8,1.2343,1.2343);
 
@@ -92,7 +92,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Capa_1
-	this.instance = new lib.CachedTexturedBitmap_14();
+	this.instance = new lib.CachedTexturedBitmap_24();
 	this.instance.parent = this;
 	this.instance.setTransform(-22.25,-25.55,1.401,1.401);
 
@@ -145,108 +145,108 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// clips
-	this.instance = new lib.CachedTexturedBitmap_12();
+	this.instance = new lib.CachedTexturedBitmap_22();
 	this.instance.parent = this;
-	this.instance.setTransform(487.1,37.95,0.5,0.5);
+	this.instance.setTransform(444.1,15.95,0.5,0.5);
 
 	this.movieClip_18 = new lib.ch();
 	this.movieClip_18.name = "movieClip_18";
 	this.movieClip_18.parent = this;
-	this.movieClip_18.setTransform(193.5,207.65,0.3548,0.3569,0,0,0,0.1,0.1);
+	this.movieClip_18.setTransform(150.5,185.65,0.3548,0.3569,0,0,0,0.1,0.1);
 
 	this.movieClip_17 = new lib.ch();
 	this.movieClip_17.name = "movieClip_17";
 	this.movieClip_17.parent = this;
-	this.movieClip_17.setTransform(157.3,205.3,0.3548,0.3569,0,0,0,0.1,0.1);
+	this.movieClip_17.setTransform(114.3,183.3,0.3548,0.3569,0,0,0,0.1,0.1);
 
 	this.movieClip_16 = new lib.ch();
 	this.movieClip_16.name = "movieClip_16";
 	this.movieClip_16.parent = this;
-	this.movieClip_16.setTransform(75.6,205.3,0.3548,0.3569,0,0,0,0.1,0.1);
+	this.movieClip_16.setTransform(32.6,183.3,0.3548,0.3569,0,0,0,0.1,0.1);
 
 	this.movieClip_15 = new lib.ch();
 	this.movieClip_15.name = "movieClip_15";
 	this.movieClip_15.parent = this;
-	this.movieClip_15.setTransform(181.9,156.1,0.3548,0.3569,0,0,0,0.1,0);
+	this.movieClip_15.setTransform(138.95,134.15,0.3548,0.3569,0,0,0,0.1,0);
 
 	this.movieClip_14 = new lib.ch();
 	this.movieClip_14.name = "movieClip_14";
 	this.movieClip_14.parent = this;
-	this.movieClip_14.setTransform(116.05,156.1,0.3548,0.3569,0,0,0,0.1,0);
+	this.movieClip_14.setTransform(73,134.15,0.3548,0.3569,0,0,0,0.1,0);
 
 	this.movieClip_13 = new lib.ch();
 	this.movieClip_13.name = "movieClip_13";
 	this.movieClip_13.parent = this;
-	this.movieClip_13.setTransform(177.7,104.95,0.3548,0.3569,0,0,0,0.1,0.1);
+	this.movieClip_13.setTransform(134.75,82.95,0.3548,0.3569,0,0,0,0.1,0.1);
 
 	this.movieClip_12 = new lib.ch();
 	this.movieClip_12.name = "movieClip_12";
 	this.movieClip_12.parent = this;
-	this.movieClip_12.setTransform(118.75,98.05,0.3548,0.3569,0,0,0,0.1,0.1);
+	this.movieClip_12.setTransform(75.75,76.05,0.3548,0.3569,0,0,0,0.1,0.1);
 
 	this.movieClip_11 = new lib.ch();
 	this.movieClip_11.name = "movieClip_11";
 	this.movieClip_11.parent = this;
-	this.movieClip_11.setTransform(82.15,109.75,0.3548,0.3569,0,0,0,0.1,0.1);
+	this.movieClip_11.setTransform(39.1,87.75,0.3548,0.3569,0,0,0,0.1,0.1);
 
 	this.movieClip_10 = new lib.ch();
 	this.movieClip_10.name = "movieClip_10";
 	this.movieClip_10.parent = this;
-	this.movieClip_10.setTransform(204.6,60.5,0.3548,0.3569,0,0,0,0.1,0.1);
+	this.movieClip_10.setTransform(161.65,38.5,0.3548,0.3569,0,0,0,0.1,0.1);
 
 	this.movieClip_9 = new lib.ch();
 	this.movieClip_9.name = "movieClip_9";
 	this.movieClip_9.parent = this;
-	this.movieClip_9.setTransform(157.3,60.5,0.3548,0.3569,0,0,0,0.1,0.1);
+	this.movieClip_9.setTransform(114.3,38.5,0.3548,0.3569,0,0,0,0.1,0.1);
 
 	this.movieClip_8 = new lib.ch();
 	this.movieClip_8.name = "movieClip_8";
 	this.movieClip_8.parent = this;
-	this.movieClip_8.setTransform(124.3,54.95,0.3548,0.3569,0,0,0,0.1,0.1);
+	this.movieClip_8.setTransform(81.3,32.95,0.3548,0.3569,0,0,0,0.1,0.1);
 
 	this.movieClip_7 = new lib.ch();
 	this.movieClip_7.name = "movieClip_7";
 	this.movieClip_7.parent = this;
-	this.movieClip_7.setTransform(78.85,62.95,0.3548,0.3569,0,0,0,0.1,0.1);
+	this.movieClip_7.setTransform(35.9,40.95,0.3548,0.3569,0,0,0,0.1,0.1);
 
 	this.movieClip_6 = new lib.ch();
 	this.movieClip_6.name = "movieClip_6";
 	this.movieClip_6.parent = this;
-	this.movieClip_6.setTransform(407.35,58.3,0.3548,0.3545,0,0,0,0,0.1);
+	this.movieClip_6.setTransform(364.4,36.3,0.3548,0.3545,0,0,0,0,0.1);
 
 	this.movieClip_5 = new lib.ch();
 	this.movieClip_5.name = "movieClip_5";
 	this.movieClip_5.parent = this;
-	this.movieClip_5.setTransform(304.25,112.2,0.3548,0.3545,0,0,0,0.1,0.1);
+	this.movieClip_5.setTransform(261.25,90.2,0.3548,0.3545,0,0,0,0.1,0.1);
 
 	this.movieClip_4 = new lib.ch();
 	this.movieClip_4.name = "movieClip_4";
 	this.movieClip_4.parent = this;
-	this.movieClip_4.setTransform(388.9,104.9,0.3548,0.3569,0,0,0,0.1,0);
+	this.movieClip_4.setTransform(345.9,82.9,0.3548,0.3569,0,0,0,0.1,0);
 
 	this.movieClip_3 = new lib.ch();
 	this.movieClip_3.name = "movieClip_3";
 	this.movieClip_3.parent = this;
-	this.movieClip_3.setTransform(431.7,91.25,0.3548,0.3569,0,0,0,0.1,0.1);
+	this.movieClip_3.setTransform(388.7,69.25,0.3548,0.3569,0,0,0,0.1,0.1);
 
 	this.movieClip_2 = new lib.ch();
 	this.movieClip_2.name = "movieClip_2";
 	this.movieClip_2.parent = this;
-	this.movieClip_2.setTransform(308.8,70,0.3548,0.3569,0,0,0,0.3,0.1);
+	this.movieClip_2.setTransform(265.8,48,0.3548,0.3569,0,0,0,0.3,0.1);
 
 	this.movieClip_1 = new lib.ch();
 	this.movieClip_1.name = "movieClip_1";
 	this.movieClip_1.parent = this;
-	this.movieClip_1.setTransform(346.6,62.95,0.3548,0.3569,0,0,0,0.1,0.1);
+	this.movieClip_1.setTransform(303.55,40.95,0.3548,0.3569,0,0,0,0.1,0.1);
 
 	this.cuadrado = new lib.cuadrado();
 	this.cuadrado.name = "cuadrado";
 	this.cuadrado.parent = this;
-	this.cuadrado.setTransform(149.4,134.05,0.4051,0.4051,0,0,0,0.1,0.1);
+	this.cuadrado.setTransform(106.45,112.05,0.4051,0.4051,0,0,0,0.1,0.1);
 
-	this.instance_1 = new lib.CachedTexturedBitmap_11();
+	this.instance_1 = new lib.CachedTexturedBitmap_21();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(267.9,35,0.5,0.5);
+	this.instance_1.setTransform(224.9,13,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.cuadrado},{t:this.movieClip_1},{t:this.movieClip_2},{t:this.movieClip_3},{t:this.movieClip_4},{t:this.movieClip_5},{t:this.movieClip_6},{t:this.movieClip_7},{t:this.movieClip_8},{t:this.movieClip_9},{t:this.movieClip_10},{t:this.movieClip_11},{t:this.movieClip_12},{t:this.movieClip_13},{t:this.movieClip_14},{t:this.movieClip_15},{t:this.movieClip_16},{t:this.movieClip_17},{t:this.movieClip_18},{t:this.instance}]}).wait(1));
 
@@ -312,16 +312,16 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 		// ====================================================================
 		
 		// --- LÍMITES ZONA 1 (Derecha: Clips 1-6) ---
-		var LIMITE_DERECHO = 469;
-		var LIMITE_IZQUIERDO = 270;
-		var LIMITE_INFERIOR = 137;
-		var LIMITE_SUPERIOR = 36;
+		var LIMITE_DERECHO = 425;
+		var LIMITE_IZQUIERDO = 228;
+		var LIMITE_INFERIOR = 110;
+		var LIMITE_SUPERIOR = 15;
 		
 		// --- LÍMITES ZONA 2 (Izquierda: Clips 7-18) ---
-		var LIMITE_DERECHO18 = 254;
-		var LIMITE_IZQUIERDO18 = 50;
-		var LIMITE_INFERIOR18 = 239;
-		var LIMITE_SUPERIOR18 = 36;
+		var LIMITE_DERECHO18 = 210;
+		var LIMITE_IZQUIERDO18 = 10;
+		var LIMITE_INFERIOR18 = 218;
+		var LIMITE_SUPERIOR18 = 15;
 		
 		// --- INSTANCIAS DE OBJETOS ---
 		var mc1 = this.movieClip_1; var mc2 = this.movieClip_2; var mc3 = this.movieClip_3;
@@ -799,7 +799,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.clips = new lib.Escena_1_clips();
 	this.clips.name = "clips";
 	this.clips.parent = this;
-	this.clips.setTransform(369.4,137.7,1,1,0,0,0,369.4,137.7);
+	this.clips.setTransform(326.4,115.7,1,1,0,0,0,326.4,115.7);
 	this.clips.depth = 0;
 	this.clips.isAttachedToCamera = 0
 	this.clips.isAttachedToMask = 0
@@ -813,7 +813,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.Cuadricula = new lib.Escena_1_Cuadricula();
 	this.Cuadricula.name = "Cuadricula";
 	this.Cuadricula.parent = this;
-	this.Cuadricula.setTransform(369.8,137.7,1,1,0,0,0,369.8,137.7);
+	this.Cuadricula.setTransform(326.8,115.7,1,1,0,0,0,326.8,115.7);
 	this.Cuadricula.depth = 0;
 	this.Cuadricula.isAttachedToCamera = 0
 	this.Cuadricula.isAttachedToMask = 0
@@ -824,17 +824,17 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.Cuadricula).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(399.8,184.5,289.49999999999994,56.5);
+p.nominalBounds = new cjs.Rectangle(331.9,127.5,314.4,91.5);
 // library properties:
 lib.properties = {
 	id: '9186097CE7D8A84083C5BA05F1C1B9BC',
-	width: 700,
-	height: 300,
+	width: 650,
+	height: 230,
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CronopiosHcuadr_atlas_.png?1765197341511", id:"CronopiosHcuadr_atlas_"}
+		{src:"images/CronopiosHcuadr_atlas_.png?1765200069955", id:"CronopiosHcuadr_atlas_"}
 	],
 	preloads: []
 };
